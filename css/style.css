@@ -1,0 +1,773 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ACÁ EMPIEZA HEADER */
+
+
+header{
+    background-color: #1e0464;
+    width: 100%;
+    height: 10.9375rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: rgba(168, 91, 255, 0.178) .625rem solid;
+}
+
+
+.header-titulo h1{
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: black .125rem .125rem;
+    font-size: 2.25rem;
+}
+
+
+.header-titulo h3{
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: black .125rem .125rem;
+    font-size: 1.25rem;
+}
+
+
+nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: .625rem;
+}
+
+.barra-navegacion{
+    display: flex;
+    list-style: none;
+    gap: .625rem;
+}
+
+
+.barra-navegacion a{
+    text-decoration: none;
+    color: rgb(188, 124, 240);
+    text-transform: capitalize;
+}
+
+
+/* ACÁ EMPIEZA MAIN */
+
+main{
+    background-color:#4200FF;
+    width: 100%;
+}
+
+
+.titulos-formatos h2{
+    margin-bottom: .625rem;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 1.875rem;
+    padding-top: .9375rem;
+    font-size: 1.5625rem;
+}
+
+/* SOBRE MI */
+
+main article h2{
+    display: flex;
+    color: white;
+    text-align: left;
+    text-indent: 36px;
+    padding: .9375rem .9375rem;
+}
+
+.redes-sobremi{
+    color: white;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 15.625rem 15.625rem ;
+    grid-template-rows: 4.6875rem 4.6875rem;
+    justify-content: space-between;
+}
+
+.ig-pag{
+    text-align: left;
+    justify-content: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.twlink{
+    text-align: right;
+    justify-content: right;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.twlink a{
+    color: white;
+    text-decoration: none;
+}
+
+.iglink{
+    text-align: left;
+    justify-content: left;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+/* CONTACTO */
+
+.contactolinksgrid{
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 4.6875rem 4.6875rem 4.6875rem 4.6875rem 4.6875rem;
+}
+
+.contactolinksgrid a{
+    text-decoration: none;
+    color: white;
+}
+
+.txt{
+    text-align: left;
+    justify-content: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 1.5625rem 1.5625rem;
+}
+
+.txt1{
+    text-align: left;
+    justify-content: left;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 1.5625rem 1.5625rem;
+}
+
+.linkscontacto{
+    text-align: left;
+    justify-content: left;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 1.5625rem 1.5625rem;
+}
+
+.txt2{
+    text-align: left;
+    justify-content: left;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 3.125rem 1.5625rem;
+}
+
+.linkscontacto1{
+    text-align: left;
+    justify-content: left;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 3.125rem 1.5625rem;
+}
+
+/* CARRITO MAIN */
+
+.gridcarrito{
+    padding-top: 3.125rem;
+    padding-left: 3.125rem;
+    padding-bottom: 20.3125rem;
+    width: 100%;
+    height: 15.625rem;
+    display: grid;
+    grid-template-columns: 15.625rem 15.625rem 15.625rem 15.625rem 15.625rem ;
+    grid-template-rows: 4.6875rem 4.6875rem 4.6875rem 4.6875rem;
+}
+
+.titulo{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    color: white;
+    padding-left: 1.5625rem;
+    padding-top: .625rem;
+}
+
+.titulo h2{
+    font-size: 1.5625rem;
+}
+
+.miniatura{
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
+
+.miniatura img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+}
+
+.infocompra{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: white;
+    padding-left: 1.5625rem;
+}
+
+.infocompra h2, h3{
+    font-size: 1rem;
+}
+
+
+.formulariocompra{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    color: white;
+    padding-left: 1.5625rem;
+
+}
+
+.metodospago{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: white;
+    padding-left: 1.5625rem;
+}
+
+.metodospago h2{
+    font-size: 1rem;
+}
+
+.botoncompra{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    padding:1rem 1rem ;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoncompra button a{
+    color: white;
+    text-decoration: none;
+}
+
+.botoncompra button{
+    background-color: #350da5b9;
+    padding: .9375rem .9375rem;
+    border: black .125rem solid;
+    margin: .3125rem;
+    border-radius: .625rem;
+    display: flex;
+}
+
+/* FLEXBOX PARA LOS VIDEOS */
+
+.videos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.video1{
+    width: 31.25rem;
+    height: 18.75rem;
+    margin: .9375rem .9375rem;
+}
+
+.video1 video{
+    width: 100%;
+}
+
+.video1 h4{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: .9375rem;
+}
+
+.video2{
+    width: 31.25rem;
+    height: 18.75rem;
+    margin: .9375rem .9375rem;
+}
+
+.video2 video{
+    width: 100%;
+}
+
+.video2 h4{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: .9375rem;
+}
+
+.video3{
+    width: 31.25rem;
+    height: 18.75rem;
+    margin: .9375rem .9375rem;
+}
+
+.video3 video{
+    width: 100%;
+}
+
+.video3 h4{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: .9375rem;
+}
+
+.video4{
+    width: 31.25rem;
+    height: 18.75rem;
+    margin: .9375rem .9375rem;
+}
+
+.video4 video{
+    width: 100%;
+}
+
+.video4 h4{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: .9375rem;
+}
+
+
+
+/* KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK]
+KKKKKKKKKKKKKKKKKKKKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK */
+
+
+/* MEDIAQUIRES! */
+
+@media (max-width: 1024px) {
+    .titulos-formatos h2{
+        font-size: 20px;
+    }
+    .contactolinksgrid{
+        color: white;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 75px 75px 75px 75px 1000px;
+
+    }
+}
+@media (max-width: 768px) {
+    .miniatura img{
+        height: 100%;
+        width: 50%;
+    }
+    .titulo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    color: white;
+    padding-left: 15px;
+    padding-top: 25px;
+    }    
+    .titulo h2{
+        font-size: 20px;
+    }
+    .infocompra{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        color: white;
+        padding-left: 15px;
+    }
+    
+    .infocompra h2, h3{
+        font-size: 16px;
+    }
+    
+    .formulariocompra{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        color: white;
+        padding-left: 15px;
+    
+    }
+    .metodospago{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        color: white;
+        padding-left: 15px;
+    }
+    
+    .metodospago h2{
+        font-size: 15px;
+    }
+    
+    .botoncompra{
+        grid-column: 3/4;
+        grid-row: 3/4;
+        padding:16px 16px ;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .botoncompra button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .botoncompra button{
+        background-color: #350da5b9;
+        padding: .9375rem .9375rem;
+        border: black .125rem solid;
+        margin: .3125rem;
+        border-radius: .625rem;
+        display: flex;
+    }
+
+    
+
+}
+@media (max-width: 425px) {
+
+    .gridcarrito{
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 325px;
+        width: 100%;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 125px 125px 125px 125px 125px;
+        grid-template-rows: 65px 65px 65px 65px;
+    }
+
+    .miniatura img{
+        height: 75%;
+        width: 50%;
+        padding-top: 25px;
+    }
+    .titulo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    color: white;
+    padding-left: 5px;
+    padding-top: 15px;
+    }    
+    .titulo h2{
+        font-size: 10px;
+    }
+    .infocompra{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        color: white;
+        padding-left: 5px;
+    }
+    
+    .infocompra h2, h3{
+        font-size: 11px;
+    }
+    
+    .formulariocompra{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        color: white;
+        padding-left: 5px;
+    
+    }
+    .metodospago{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        color: white;
+        padding-left: 5px;
+    }
+    
+    .metodospago h2{
+        font-size: 10px;
+    }
+    
+    .botoncompra{
+        grid-column: 3/4;
+        grid-row: 3/4;
+        padding:5px 5px ;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .botoncompra button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .botoncompra button{
+        background-color: #350da5b9;
+        padding: 15px 15px;
+        border: black 2px solid;
+        margin: 5px;
+        border-radius: 10px;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .gridcarrito{
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 325px;
+        width: 100%;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 75px 75px 75px 75px 75px;
+        grid-template-rows: 65px 65px 65px 65px;
+    }
+
+    .miniatura img{
+        height: 75%;
+        width: 50%;
+        padding-top: 25px;
+        
+    }
+
+    .miniatura{
+        grid-column: 1/6;
+        grid-row: 1/4;
+    }
+
+    .titulo{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    color: white;
+    padding-left: 5px;
+    padding-top: 15px;
+    }    
+    .titulo h2{
+        font-size: 10px;
+    }
+    .infocompra{
+        grid-column: 4/5;
+        grid-row: 1/2;
+        color: white;
+        padding-left: 5px;
+    }
+    
+    .infocompra h2, h3{
+        font-size: 11px;
+    }
+    
+    .formulariocompra{
+        grid-column: 4/5;
+        grid-row: 3/4;
+        color: white;
+        padding-left: 5px;
+    
+    }
+    .metodospago{
+        grid-column: 1/3;
+        grid-row: 4/5;
+        color: white;
+        padding-left: 5px;
+    }
+    
+    .metodospago h2{
+        font-size: 10px;
+    }
+    
+    .botoncompra{
+        grid-column: 4/5;
+        grid-row: 4/5;
+        padding:5px 5px ;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .botoncompra button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .botoncompra button{
+        background-color: #350da5b9;
+        padding: 10px 10px;
+        border: black 2px solid;
+        margin: 10px;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .header-titulo h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+        color: #ffffff;
+        text-shadow: black 2px 2px;
+        
+    }
+    
+    .header-titulo h1{
+        font-size: 28px;
+    }
+    
+    .header-titulo h3{
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: black 2px 2px;
+        font-size: 20px;
+    }
+    
+    
+    nav{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .barra-navegacion a{
+        text-decoration: none;
+        color: rgb(188, 124, 240);
+    }
+
+
+
+}
+@media (max-width: 320px) {
+
+    .gridcarrito{
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 325px;
+        width: 100%;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 75px 75px 75px 75px 75px;
+        grid-template-rows: 65px 65px 65px 65px;
+    }
+
+    .miniatura img{
+        height: 50%;
+        width: 25%;
+        padding-top: 25px;
+        
+    }
+
+    .miniatura{
+        grid-column: 1/6;
+        grid-row: 1/4;
+    }
+
+    .titulo{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    color: white;
+    padding-left: 5px;
+    padding-top: 35px;
+    }    
+    .titulo h2{
+        font-size: 10px;
+    }
+    .infocompra{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        color: white;
+        padding-left: 5px;
+    }
+    
+    .infocompra h2, h3{
+        font-size: 11px;
+    }
+    
+    .formulariocompra{
+        grid-column: 3/4;
+        grid-row: 3/4;
+        color: white;
+        padding-left: 5px;
+    
+    }
+    .metodospago{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        color: white;
+        padding-left: 5px;
+    }
+    
+    .metodospago h2{
+        font-size: 10px;
+    }
+    
+    .botoncompra{
+        grid-column: 3/4;
+        grid-row: 4/5;
+        padding:5px 5px ;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .botoncompra button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .botoncompra button{
+        background-color: #350da5b9;
+        padding: 10px 10px;
+        border: black 2px solid;
+        margin: 10px;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .header-titulo h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+        color: #ffffff;
+        text-shadow: black 2px 2px;
+        
+    }
+    
+    .header-titulo h1{
+        font-size: 18px;
+    }
+    
+    .header-titulo h3{
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: black 2px 2px;
+        font-size: 15   px;
+    }
+    
+    
+    nav{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .barra-navegacion a{
+        text-decoration: none;
+        color: rgb(188, 124, 240);
+        font-size: 10px;
+    }
+
+
+
+}
+
+
