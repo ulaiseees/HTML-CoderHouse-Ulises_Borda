@@ -14,7 +14,7 @@ header{
     height: 10.9375rem;
     display: flex;
     flex-direction: column;
-    border-bottom: rgba(168, 91, 255, 0.178) .625rem solid;
+    border-bottom: rgba(186, 133, 247, 0.178) .625rem solid;
 }
 
 
@@ -38,24 +38,23 @@ header{
 }
 
 
-nav{
+nav ul{
     display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
     justify-content: center;
-}
-
-.barra-navegacion{
     list-style: none;
-    display: flex;
-    gap: .625rem;
+    gap: .9375rem;
 }
-
+.barra-navegacion li:hover{
+    transform: scale(1.2);
+}
 .barra-navegacion a{
     text-decoration: none;
     color: rgb(180, 119, 230);
 }
+.barra-navegacion li:hover{
+    background-color: white;
+}
+
 
 
 /* ACÁ EMPIEZA MAIN */
