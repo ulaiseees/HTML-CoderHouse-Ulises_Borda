@@ -1,0 +1,48 @@
+
+.videos{
+    @include flex (row, nowrap, center, center, 5px)
+    }
+.video1{
+    width: 31.25rem;
+    height: 18.75rem;
+    margin: .9375rem .9375rem;
+    }
+.video1 video{
+    width: 100%;
+    }
+.video1 h4{
+    text-align: center;
+    justify-content: center;
+    color: $color-principal;
+    font-size: map-get($font-size , md );
+    }
+.video2{
+    @extend .video1;
+    }
+.video2 video{
+    width: 100%;
+}
+.video2 h4{
+    text-align: center;
+    justify-content: center;
+    color: $color-principal;
+    font-size: map-get($font-size , md );
+    }    
+.video3{
+    @extend .video1;
+}
+.video3 video{
+    width: 100%;
+}
+.video3 h4{
+    text-align: center;
+    justify-content: center;
+    color: $color-principal;
+    font-size: map-get($font-size , md );
+    }
+.video4{
+@extend .video1
+}
+.video4 video{
+    width: 100%;
+}

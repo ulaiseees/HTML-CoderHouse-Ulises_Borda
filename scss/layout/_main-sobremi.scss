@@ -1,0 +1,93 @@
+main article h2{
+    color: $color-principal;
+    text-align: left;
+    font-size: map-get($font-size , xl );
+    padding: .9375rem .9375rem;
+}
+
+.redes-sobremi{
+    color: $color-principal;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 15.625rem 15.625rem ;
+    grid-template-rows: 4.6875rem 4.6875rem;
+    justify-content: space-between;
+}
+
+.ig-pag{
+    text-align: left;
+    justify-content: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.twlink{
+    text-align: right;
+    justify-content: right;
+    grid-column: 2/3;
+    grid-row: 1/2;
+        a{
+        color: $color-principal;
+        text-decoration: none;
+        }
+}
+
+.iglink{
+    text-align: left;
+    justify-content: left;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+/* CONTACTO */
+
+.contactolinksgrid{
+    color: $color-principal;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 4.6875rem 4.6875rem 4.6875rem 4.6875rem 4.6875rem;
+        a{
+        text-decoration: none;
+        color: $color-principal;
+        }
+}
+
+.txt{
+    text-align: left;
+    justify-content: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 1.5625rem 1.5625rem;
+}
+
+.txt1{
+    text-align: left;
+    justify-content: left;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 1.5625rem 1.5625rem;
+}
+
+.linkscontacto{
+    text-align: left;
+    justify-content: left;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 1.5625rem 1.5625rem;
+}
+
+.txt2{
+    text-align: left;
+    justify-content: left;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 3.125rem 1.5625rem;
+}
+
+.linkscontacto1{
+    text-align: left;
+    justify-content: left;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 3.125rem 1.5625rem;
+}
