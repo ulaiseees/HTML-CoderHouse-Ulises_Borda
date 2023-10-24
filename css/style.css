@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,12 @@ header {
   align-items: center;
   gap: 0.625rem;
 }
-header h1 {
+header a {
+  border: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+header a h1 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
   text-align: center;
@@ -25,12 +31,12 @@ header h1 {
   text-shadow: black 0.125rem 0.125rem;
   font-size: 2.25rem;
 }
-header h3 {
+header ul .barra-navegación {
   justify-content: center;
+  align-items: center;
   text-align: center;
   color: white;
-  text-shadow: black 0.125rem 0.125rem;
-  font-size: 1.25rem;
+  padding-left: 0;
 }
 
 nav ul {

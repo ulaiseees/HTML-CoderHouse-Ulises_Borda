@@ -5,6 +5,10 @@ header{
     border-bottom: $separadores .625rem solid;
     @include flex (column, nowrap, center, center, .625rem);
 
+a{
+    border: 2px;
+    border-radius: 5px;
+    text-decoration: none;
     h1{
         padding-top: .625rem;
         padding-bottom: .625rem;
@@ -14,13 +18,16 @@ header{
         text-shadow: $color-terciario .125rem .125rem;
         font-size: 2.25rem;
     }
+}
 
-    h3{
+    ul .barra-navegación{
         justify-content: center;
+        align-items: center;
         text-align: center;
         color: $color-principal;
-        text-shadow: $color-terciario .125rem .125rem;
-        font-size: 1.25rem;
+        padding-left: 0;
     }
+
+
 
 }
