@@ -1,9 +1,11 @@
 header{
     background-color: $bg-header;
+    color: $color-principal;
     width: 100%;
     height: 10.9375rem;
     border-bottom: $separadores .625rem solid;
     @include flex (column, nowrap, center, center, .625rem);
+
 
 a{
     border: 2px;
@@ -16,18 +18,16 @@ a{
         justify-content: center;
         color: $color-principal;
         text-shadow: $color-terciario .125rem .125rem;
-        font-size: 2.25rem;
+        font-size: map-get($font-size , xxl );;
     }
 }
 
-    ul .barra-navegación{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: $color-principal;
-        padding-left: 0;
+.barra-navegacion{
+    a{
+        background-color: #57448F;
+        padding: 5px 50px 5px 50px;
+
     }
-
-
+}
 
 }

@@ -7,11 +7,9 @@
     gap: $gap;
 }
 
-@mixin grid($col, $row, $justify, $align, $gap){
+@mixin grid($col, $row, $gap){
     display: grid;
     grid-template-columns: $col;
     grid-template-rows: $row;
-    justify-content: $justify;
-    align-content: $align;
     gap: $gap;
 }

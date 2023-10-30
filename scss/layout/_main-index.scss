@@ -11,4 +11,26 @@ main{
     font-size: 1.5625rem;
         }
 
+.presentacion-main{
+    background-color: rgb(58, 8, 87);
+    width: 100%px;
+    height: 150px;
+    opacity: 75%;
+    h2{
+        color: $color-principal;
+        padding: 5px;
+        font-size: map-get($font-size , xl );
+        text-align: left;
+        justify-content: left;
+
+    }
+    h3{
+        color: $color-principal;
+        padding: 5px;
+        font-size: map-get($font-size , xl );
+        text-align: left;
+        justify-content: left;
+    }
+}
+
 }
