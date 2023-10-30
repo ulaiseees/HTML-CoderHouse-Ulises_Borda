@@ -1,62 +1,51 @@
-.contactolinksgrid{
-    // padding-top: 3.125rem;
-    // padding-left: 3.125rem;
-    // padding-bottom: 20.3125rem;
-    width: 100%;
-    height: 300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 4.6875rem 4.6875rem 4.6875rem 4.6875rem;
-}
-
-.txt{
-    text-align: left;
-    justify-content: left;
-    grid-column: 1/2;
-    grid-row: 1/3;
-    padding: 1.5625rem 1.5625rem;
-}        
-.txt1{
-    h2{
+    .contactolinksgrid{
+        color: $color-principal;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 4.6875rem 4.6875rem 4.6875rem 4.6875rem 4.6875rem;
+            a{
+            text-decoration: none;
+            color: $color-principal;
+            }
+    }
+    
+    .txt{
+        text-align: left;
+        justify-content: left;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 1.5625rem 1.5625rem;
+    }
+    
+    .txt1{
         text-align: left;
         justify-content: left;
         grid-column: 2/3;
-        grid-row: 1/4;
-        // padding: 1.5625rem 1.5625rem;
-        font-size: map-get($font-size , md);
+        grid-row: 1/3;
+        padding: 1.5625rem 1.5625rem;
     }
-}
-.linkscontacto{
-    text-align: left;
-    justify-content: left;
-    grid-column: 3/4;
-    grid-row: 1/2;
-    // padding: 1.5625rem 1.5625rem;
-    button{
-        background-color: #7949ff;
-        width: 12.5rem;
-        height: 3.125rem;
+    
+    .linkscontacto{
+        text-align: left;
+        justify-content: left;
+        grid-column: 3/4;
+        grid-row: 2/4;
+        padding: 25px 25px;
     }
-}
-.txt2{
-    h2{
+    
+    .txt2{
         text-align: left;
         justify-content: left;
         grid-column: 2/3;
-        grid-row: 5/6;
-        // padding: 3.125rem 1.5625rem;
-        font-size: map-get($font-size , md);
+        grid-row: 4/5;
+        padding: 3.125rem 1.5625rem;
     }
-}        
-.linkscontacto1{
-    text-align: left;
-    justify-content: left;
-    grid-column: 3/4;
-    grid-row: 4/5;
-    // padding: 3.125rem 1.5625rem;
-    button{
-        background-color: #7949ff;
-        width: 9.375rem;
-        height: 3.125rem;
+    
+    .linkscontacto1{
+        text-align: left;
+        justify-content: left;
+        grid-column: 3/4;
+        grid-row: 4/6;
+        padding: 3.125rem 1.5625rem;
     }
-}
+    

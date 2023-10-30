@@ -59,8 +59,8 @@ main {
   width: 100%;
 }
 main h2 {
-  margin-bottom: 0.625rem;
   color: white;
+  margin-bottom: 0.625rem;
   text-transform: capitalize;
   padding-left: 1.875rem;
   padding-top: 0.9375rem;
@@ -68,23 +68,21 @@ main h2 {
 }
 main .presentacion-main {
   background-color: rgb(58, 8, 87);
-  width: 100% px;
-  height: 150px;
+  width: 100%;
+  height: 250px;
   opacity: 75%;
-}
-main .presentacion-main h2 {
-  color: white;
-  padding: 5px;
-  font-size: 25px;
-  text-align: left;
-  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9375rem;
+  margin: 15px 0px;
 }
 main .presentacion-main h3 {
   color: white;
-  padding: 5px;
+  padding: 5px 15px 5px 15px;
   font-size: 25px;
-  text-align: left;
-  justify-content: left;
 }
 
 .videos {
@@ -97,9 +95,9 @@ main .presentacion-main h3 {
 }
 
 .video1, .video4, .video3, .video2 {
-  width: 31.25rem;
-  height: 18.75rem;
-  margin: 0.9375rem 0.9375rem;
+  width: 500px;
+  height: 300px;
+  margin: 5px 15px;
 }
 
 .video1 video, .video4 video, .video3 video, .video2 video {
@@ -140,62 +138,57 @@ main .presentacion-main h3 {
 }
 
 .contactolinksgrid {
-  width: 100%;
-  height: 300px;
+  color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 4.6875rem 4.6875rem 4.6875rem 4.6875rem;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 4.6875rem 4.6875rem 4.6875rem 4.6875rem 4.6875rem;
+}
+.contactolinksgrid a {
+  text-decoration: none;
+  color: white;
 }
 
 .txt {
   text-align: left;
   justify-content: left;
   grid-column: 1/2;
-  grid-row: 1/3;
+  grid-row: 1/2;
   padding: 1.5625rem 1.5625rem;
 }
 
-.txt1 h2 {
+.txt1 {
   text-align: left;
   justify-content: left;
   grid-column: 2/3;
-  grid-row: 1/4;
-  font-size: 16px;
+  grid-row: 1/3;
+  padding: 1.5625rem 1.5625rem;
 }
 
 .linkscontacto {
   text-align: left;
   justify-content: left;
   grid-column: 3/4;
-  grid-row: 1/2;
-}
-.linkscontacto button {
-  background-color: #7949ff;
-  width: 12.5rem;
-  height: 3.125rem;
+  grid-row: 2/4;
+  padding: 25px 25px;
 }
 
-.txt2 h2 {
+.txt2 {
   text-align: left;
   justify-content: left;
   grid-column: 2/3;
-  grid-row: 5/6;
-  font-size: 16px;
+  grid-row: 4/5;
+  padding: 3.125rem 1.5625rem;
 }
 
 .linkscontacto1 {
   text-align: left;
   justify-content: left;
   grid-column: 3/4;
-  grid-row: 4/5;
-}
-.linkscontacto1 button {
-  background-color: #7949ff;
-  width: 9.375rem;
-  height: 3.125rem;
+  grid-row: 4/6;
+  padding: 3.125rem 1.5625rem;
 }
 
-main article h2 {
+main article h3 {
   color: white;
   text-align: left;
   font-size: 25px;
@@ -237,57 +230,6 @@ main article h2 {
 }
 
 /* CONTACTO */
-.contactolinksgrid {
-  color: white;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 4.6875rem 4.6875rem 4.6875rem 4.6875rem 4.6875rem;
-}
-.contactolinksgrid a {
-  text-decoration: none;
-  color: white;
-}
-
-.txt {
-  text-align: left;
-  justify-content: left;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  padding: 1.5625rem 1.5625rem;
-}
-
-.txt1 {
-  text-align: left;
-  justify-content: left;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  padding: 1.5625rem 1.5625rem;
-}
-
-.linkscontacto {
-  text-align: left;
-  justify-content: left;
-  grid-column: 3/4;
-  grid-row: 1/2;
-  padding: 1.5625rem 1.5625rem;
-}
-
-.txt2 {
-  text-align: left;
-  justify-content: left;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  padding: 3.125rem 1.5625rem;
-}
-
-.linkscontacto1 {
-  text-align: left;
-  justify-content: left;
-  grid-column: 3/4;
-  grid-row: 2/3;
-  padding: 3.125rem 1.5625rem;
-}
-
 .gridcarrito {
   padding-top: 3.125rem;
   padding-left: 3.125rem;
