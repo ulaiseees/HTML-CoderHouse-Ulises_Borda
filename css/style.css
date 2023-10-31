@@ -64,25 +64,38 @@ main h2 {
   text-transform: capitalize;
   padding-left: 1.875rem;
   padding-top: 0.9375rem;
-  font-size: 1.5625rem;
+  font-size: 25px;
 }
 main .presentacion-main {
   background-color: rgb(58, 8, 87);
   width: 100%;
-  height: 250px;
-  opacity: 75%;
+  height: 350px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.9375rem;
+  gap: 0px;
   margin: 15px 0px;
 }
 main .presentacion-main h3 {
   color: white;
+  padding: 5px 15px 5px 5px;
+  font-size: 25px;
+  padding-left: 5px;
+}
+main .presentacion-main h3 a {
+  color: white;
+}
+main .presentacion-main h5 {
+  color: white;
   padding: 5px 15px 5px 15px;
   font-size: 25px;
+  padding-left: 5px;
+}
+main .presentacion-main iframe {
+  height: 250px;
+  width: 400px;
 }
 
 .videos {
@@ -188,48 +201,16 @@ main .presentacion-main h3 {
   padding: 3.125rem 1.5625rem;
 }
 
+main article {
+  background-color: rgb(40, 0, 92);
+}
 main article h3 {
   color: white;
   text-align: left;
   font-size: 25px;
-  padding: 0.9375rem 0.9375rem;
+  padding: 10px 25px;
 }
 
-.redes-sobremi {
-  color: white;
-  text-decoration: none;
-  display: grid;
-  grid-template-columns: 15.625rem 15.625rem;
-  grid-template-rows: 4.6875rem 4.6875rem;
-  justify-content: space-between;
-}
-
-.ig-pag {
-  text-align: left;
-  justify-content: left;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.twlink {
-  text-align: right;
-  justify-content: right;
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-.twlink a {
-  color: white;
-  text-decoration: none;
-}
-
-.iglink {
-  text-align: left;
-  justify-content: left;
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-
-/* CONTACTO */
 .gridcarrito {
   padding-top: 3.125rem;
   padding-left: 3.125rem;

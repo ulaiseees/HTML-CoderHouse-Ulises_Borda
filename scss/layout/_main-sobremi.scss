@@ -1,43 +1,13 @@
-main article h3{
-    color: $color-principal;
-    text-align: left;
-    font-size: map-get($font-size , xl );
-    padding: .9375rem .9375rem;
-}
-
-.redes-sobremi{
-    color: $color-principal;
-    text-decoration: none;
-    display: grid;
-    grid-template-columns: 15.625rem 15.625rem ;
-    grid-template-rows: 4.6875rem 4.6875rem;
-    justify-content: space-between;
-}
-
-.ig-pag{
-    text-align: left;
-    justify-content: left;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.twlink{
-    text-align: right;
-    justify-content: right;
-    grid-column: 2/3;
-    grid-row: 1/2;
-        a{
-        color: $color-principal;
-        text-decoration: none;
+main article {
+    background-color: $bg-secundario;
+    
+        h3{
+            color: $color-principal;
+            text-align: left;
+            font-size: map-get($font-size , xl );
+            padding: 10px 25px;
         }
 }
 
-.iglink{
-    text-align: left;
-    justify-content: left;
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
 
-/* CONTACTO */
 
