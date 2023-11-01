@@ -1,5 +1,105 @@
 @media (max-width: 320px) {
 
+
+    // ACÁ EMPIEZO EL HEADER
+
+
+
+    .header{
+        height: 5000px;
+        border-bottom: $separadores .9375rem solid;
+    }
+
+    .header-titulo {
+        h1{
+            padding-top: .9375rem;
+            padding-bottom: .9375rem;
+            text-align: center;
+            justify-content: center;
+            color: $color-principal;
+            text-shadow: $color-terciario 2px 2px;
+            font-size: map-get($font-size , xl );
+        }
+        h3{
+            justify-content: center;
+            text-align: center;
+            color: $color-principal;
+            text-shadow: $color-terciario 2px 2px;
+            font-size: map-get($font-size , sm );
+        }
+    }    
+
+
+    nav{
+        display: flex;
+        list-style: decimal;
+        justify-content: center;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .barra-navegacion{
+        gap: 8px;
+            a{
+                text-decoration: none;
+                color: $remarcado-principal;
+                font-size: map-get($font-size, md );
+            }
+    }
+            // Tenía que hacer el Menu Hamburguesa acá pero se me complicó, por eso quedó así...
+
+    .videos{
+        margin: 0px 0px;
+        @include flex (column, nowrap, center, center, 1px);
+    }
+    .video1{
+        margin: 0.5px 15px;
+        width: 85%;
+            h4{
+                text-align: center;
+                justify-content: center;
+                color: $color-principal;
+                font-size: 10px;
+                margin: 2px 2px;
+            }
+        }
+
+
+    .video2{
+        margin: 0.5px 15px;
+            h4{
+                text-align: center;
+                justify-content: center;
+                color: $color-principal;
+                font-size: 10px;
+                margin: 2px 2px;
+            }
+    }
+
+
+    .video3{
+        margin: 0.5px 15px;
+        h4{
+            text-align: center;
+            justify-content: center;
+            color: $color-principal;
+            font-size: 10px;
+            margin: 2px 2px;
+        }
+    }
+
+
+    .video4{
+        margin: 0.5px 15px;
+            h4{
+                text-align: center;
+                justify-content: center;
+                color: $color-principal;    
+                font-size: 10px;
+                margin: 2px 2px;
+    }
+    }
+
+
     .gridcarrito{
         padding-top: 25px;
         padding-left: 10px;
@@ -91,94 +191,4 @@
             }
         }
 
-    .header-titulo {
-        h1{
-            padding-top: 10px;
-            padding-bottom: 10px;
-            text-align: center;
-            justify-content: center;
-            color: $color-principal;
-            text-shadow: $color-terciario 2px 2px;
-            font-size: map-get($font-size , xl );
-        }
-        h3{
-            justify-content: center;
-            text-align: center;
-            color: $color-principal;
-            text-shadow: $color-terciario 2px 2px;
-            font-size: map-get($font-size , sm );
-        }
-    }    
-
-
-    nav{
-        display: flex;
-        list-style: decimal;
-        justify-content: center;
-        padding: 5px 5px 5px 5px;
     }
-    
-    .barra-navegacion{
-        gap: 8px;
-            a{
-                text-decoration: none;
-                color: $remarcado-principal;
-                font-size: map-get($font-size, md );
-            }
-    }
-            // Tenía que hacer el Menu Hamburguesa acá pero se me complicó, por eso quedó así...
-
-    .videos{
-        margin: 0px 0px;
-        @include flex (column, nowrap, center, center, 1px);
-    }
-    .video1{
-        margin: 0.5px 15px;
-        width: 85%;
-            h4{
-                text-align: center;
-                justify-content: center;
-                color: $color-principal;
-                font-size: 10px;
-                margin: 2px 2px;
-            }
-        }
-
-
-    .video2{
-        margin: 0.5px 15px;
-            h4{
-                text-align: center;
-                justify-content: center;
-                color: $color-principal;
-                font-size: 10px;
-                margin: 2px 2px;
-            }
-    }
-
-
-    .video3{
-        margin: 0.5px 15px;
-        h4{
-            text-align: center;
-            justify-content: center;
-            color: $color-principal;
-            font-size: 10px;
-            margin: 2px 2px;
-        }
-    }
-
-
-    .video4{
-        margin: 0.5px 15px;
-            h4{
-                text-align: center;
-                justify-content: center;
-                color: $color-principal;    
-                font-size: 10px;
-                margin: 2px 2px;
-    }
-    }
-
-
-}
