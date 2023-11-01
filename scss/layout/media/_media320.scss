@@ -1,97 +1,13 @@
 @media (max-width: 320px) {
 
-    .header-titulo {
-        h1{
-            padding-top: .9375rem;
-            padding-bottom: .9375rem;
-            text-align: center;
-            justify-content: center;
-            color: $color-principal;
-            text-shadow: $color-terciario 2px 2px;
-            font-size: map-get($font-size , xl );
-        }
-        h3{
-            justify-content: center;
-            text-align: center;
-            color: $color-principal;
-            text-shadow: $color-terciario 2px 2px;
-            font-size: map-get($font-size , sm );
-        }
-        .header{
-            height: 5000px;
-            border-bottom: $separadores .9375rem solid;
-        }
-    }    
-    nav{
-        display: flex;
-        list-style: decimal;
-        justify-content: center;
-        padding: 5px 5px 5px 5px;
-    }
-    .barra-navegacion{
-        gap: 8px;
-            a{
-                text-decoration: none;
-                color: $remarcado-principal;
-                font-size: map-get($font-size, md );
-            }
-    }
-    .videos{
-        margin: 0px 0px;
-        @include flex (column, nowrap, center, center, 1px);
-    }
-    .video1{
-        margin: 0.5px 15px;
-        width: 85%;
-            h4{
-                text-align: center;
-                justify-content: center;
-                color: $color-principal;
-                font-size: 10px;
-                margin: 2px 2px;
-            }
-        }
-    .video2{
-        margin: 0.5px 15px;
-            h4{
-                text-align: center;
-                justify-content: center;
-                color: $color-principal;
-                font-size: 10px;
-                margin: 2px 2px;
-            }
-    }
-    .video3{
-        margin: 0.5px 15px;
-        h4{
-            text-align: center;
-            justify-content: center;
-            color: $color-principal;
-            font-size: 10px;
-            margin: 2px 2px;
-        }
-    }
-    .video4{
-        margin: 0.5px 15px;
-            h4{
-                text-align: center;
-                justify-content: center;
-                color: $color-principal;    
-                font-size: 10px;
-                margin: 2px 2px;
-    }
-    }
-
-
     .gridcarrito{
         padding-top: 25px;
-        padding-left: 10px;
         padding-bottom: 325px;
         width: 100%;
         height: 250px;
         display: grid;
         grid-template-columns: 75px 75px 75px 75px 75px;
-        grid-template-rows: 65px 65px 65px 65px;
+        grid-template-rows: 65px 65px 65px 65px 65px 65px 65px 65px;
     }
 
 .miniatura
@@ -102,15 +18,13 @@
         img{
             height: 50%;
             width: 25%;
-            padding-top: 25px;
         }
     }
 
     .titulo{
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 1/1;
     color: $color-principal;
-    padding-left: 5px;
         h2{
             font-size: map-get($font-size , md);
     }    
@@ -118,7 +32,7 @@
     
     .infocompra{
         grid-column: 3/5;
-        grid-row: 2/3;
+        grid-row: 2/4;
         color: $color-principal;
         padding-left: 5px;
         h2{
@@ -158,13 +72,12 @@
         padding:2px 2px;
         justify-content: center;
         align-items: center;
-
             button{
                 background-color: $bg-principal;
                 padding: 5px 5px;
                 border: $color-terciario 2px solid;
                 margin: 10px;
-                border-radius: 8px;
+                border-radius: 12px;
                 display: flex;
                 a{
                     color: $color-principal;
@@ -174,4 +87,91 @@
             }
         }
 
+    .header-titulo {
+        .header{
+            background-color: $bg-header;
+            color: $color-principal;
+            width: 100%;
+            height: 14.0625rem;
+            border-bottom: $separadores .75rem solid;
+
+        a{
+            border: .0625rem;
+            border-radius: .125rem;
+            text-decoration: none;
+                h1{
+                    padding-top: .3125rem;
+                    padding-bottom: .375rem;
+                    text-align: centerk;
+                    justify-content: center;
+                    color: $color-principal;
+                    text-shadow: $color-terciario .125rem .125rem;
+                    font-size: map-get($font-size , xl );
+                }
+            }
+        }
+            .barra-navegacion{
+                a{
+                    background-color: #57448F;
+                    padding: .0625rem .0625rem .0625rem .0625rem;
+                    font-size: map-get($font-size , sm );
+
+                }
+            }
+        }
+            // Tenía que hacer el Menu Hamburguesa acá pero se me complicó, por eso quedó así...
+
+    .videos{
+        margin: 0px 0px;
+        @include flex (column, nowrap, center, center, 2px)
     }
+    .video1{
+        margin: 0.5px 15px;
+        width: 85%;
+            h4{
+                text-align: center;
+                justify-content: center;
+                color: $color-principal;
+                font-size: 10px;
+                margin: 2px 2px;
+            }
+        }
+
+
+    .video2{
+        margin: 0.5px 15px;
+            h4{
+                text-align: center;
+                justify-content: center;
+                color: $color-principal;
+                font-size: 10px;
+                margin: 2px 2px;
+            }
+    }
+
+
+    .video3{
+        margin: 0.5px 15px;
+        h4{
+            text-align: center;
+            justify-content: center;
+            color: $color-principal;
+            font-size: 10px;
+            margin: 2px 2px;
+        }
+    }
+
+
+    .video4{
+        margin: 0.5px 15px;
+            h4{
+                text-align: center;
+                justify-content: center;
+                color: $color-principal;    
+                font-size: 10px;
+                margin: 2px 2px;
+    }
+    }
+
+
+}

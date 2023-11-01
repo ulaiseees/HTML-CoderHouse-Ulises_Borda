@@ -6,7 +6,6 @@
         width: 100%;
         height: 10.9375rem;
         border-bottom: $separadores .625rem solid;
-        @include flex (column, nowrap, center, center, .625rem);
     
     a{
         border: 2px;
