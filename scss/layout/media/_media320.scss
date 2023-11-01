@@ -1,15 +1,5 @@
 @media (max-width: 320px) {
 
-
-    // ACÁ EMPIEZO EL HEADER
-
-
-
-    .header{
-        height: 5000px;
-        border-bottom: $separadores .9375rem solid;
-    }
-
     .header-titulo {
         h1{
             padding-top: .9375rem;
@@ -27,16 +17,17 @@
             text-shadow: $color-terciario 2px 2px;
             font-size: map-get($font-size , sm );
         }
+        .header{
+            height: 5000px;
+            border-bottom: $separadores .9375rem solid;
+        }
     }    
-
-
     nav{
         display: flex;
         list-style: decimal;
         justify-content: center;
         padding: 5px 5px 5px 5px;
     }
-    
     .barra-navegacion{
         gap: 8px;
             a{
@@ -45,8 +36,6 @@
                 font-size: map-get($font-size, md );
             }
     }
-            // Tenía que hacer el Menu Hamburguesa acá pero se me complicó, por eso quedó así...
-
     .videos{
         margin: 0px 0px;
         @include flex (column, nowrap, center, center, 1px);
@@ -62,8 +51,6 @@
                 margin: 2px 2px;
             }
         }
-
-
     .video2{
         margin: 0.5px 15px;
             h4{
@@ -74,8 +61,6 @@
                 margin: 2px 2px;
             }
     }
-
-
     .video3{
         margin: 0.5px 15px;
         h4{
@@ -86,8 +71,6 @@
             margin: 2px 2px;
         }
     }
-
-
     .video4{
         margin: 0.5px 15px;
             h4{
