@@ -1,2 +1,10 @@
-Buenas. Los HTML con FULL responsive vendrían a ser el Index y el HTML de Carrito.
-Saludos.
+Entrega Final 
+Ulises Borda 
+Comision-46880
+
+Entrega del proyecto final de curso
+
+Profesor :Maximiliano Cardenas
+
+Observaciones
+Entrega del proyecto final de curso. 
