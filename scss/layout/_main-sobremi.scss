@@ -1,0 +1,13 @@
+main article {
+    background-color: $bg-secundario;
+    
+        h3{
+            color: $color-principal;
+            text-align: left;
+            font-size: map-get($font-size , xl );
+            padding: 10px 25px;
+        }
+}
+
+
+

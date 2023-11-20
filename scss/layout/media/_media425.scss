@@ -1,0 +1,315 @@
+@media (max-width: 425px){
+
+    header{
+        .header-titulo {
+            background-color: $bg-header;
+            color: white;
+            text-decoration: none;
+                .nav-wrapper{
+                    width: 100%;
+                    margin: 0 auto;
+                    padding: 1rem;
+                }
+                    nav{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: center;
+                        background-color: $bg-header;
+                        padding: 1rem 1rem;
+                            .logo{
+                                color: white;
+                                text-decoration: none;
+                                font-size: map-get($font-size , md );
+                            }
+                            .menu-h{
+                                width: 100%;
+                                height: 0;
+                                overflow: hidden;
+                                .barra-navegacion{
+                                    flex-direction: column;
+                                    align-items: center;
+                                    padding: 0.5rem 0.5rem;
+                                    li a{
+                                        padding: .3125rem .3125rem;
+                                        border: 9.375rem;
+                                        border-radius: .3125rem;
+                                        text-decoration: none;
+                                        background-color: $color-secundario;
+                                        font-size: map-get($font-size , md );
+
+                                    }
+                                }
+                            }
+                            label{
+                                display: flex;
+                                color:white;
+                                cursor: pointer;
+                            }
+                            #toggle:checked ~ .menu-h{
+                            height: 100%;
+                            }
+                        }
+                    
+                }
+    }
+
+    main .presentacion-main{
+            background-color: rgb(58, 8, 87);
+            width: 100%;
+            height: 29.6875rem;
+            @include flex (row, wrap, center, center, 0px);
+            margin: 15px 0px;
+            h3 {
+                color: $color-principal;
+                padding: 5px 15px 5px 5px;
+                font-size: map-get($font-size , xl );
+                padding-left: 5px;
+                text-align: center;
+                justify-content: center;
+                a{
+                    color: $color-principal;
+                }
+            } 
+            h5{
+                color: $color-principal;
+                padding: 5px 15px 5px 15px;
+                font-size: map-get($font-size , xl );
+                padding-left: 5px;
+                text-align: left;
+                // justify-content: left;
+            }
+            iframe{
+                height: 15.625rem;
+                width: 25rem;
+                padding: .9375rem .9375rem;
+                justify-content: flex-end;
+            }
+        }
+    
+
+
+        // VIDEOS   
+
+        main .titulos-formatos{
+            h2{
+                color: white;
+            }
+        }
+
+        .videos{
+            @include flex (column, nowrap, center, center, 5px);
+            padding-bottom: 0rem;
+            }
+        .video1{
+            width: 18.75rem;
+            height: 12.5rem;
+            margin: .0625rem .625rem;
+            }
+        .video1 video{
+            width: 100%;
+            }
+        .video1 h4{
+            text-align: center;
+            justify-content: center;
+            color: $color-principal;
+            font-size: map-get($font-size , md );
+            }
+        .video2{
+            width: 18.75rem;
+            height: 12.5rem;            
+            margin: .0625rem .625rem;
+        }
+        .video2 video{
+            width: 100%;
+        }
+        .video2 h4{
+            text-align: center;
+            justify-content: center;
+            color: $color-principal;
+            font-size: map-get($font-size , md );
+            }    
+        .video3{
+            width: 18.75rem;
+            height: 12.5rem;            
+            margin: .0625rem .625rem;
+        }
+        .video3 video{
+            width: 100%;
+        }
+        .video3 h4{
+            text-align: center;
+            justify-content: center;
+            color: $color-principal;
+            font-size: map-get($font-size , md );
+            }
+        .video4{
+            width: 18.75rem;
+            height: 12.5rem;
+            margin: .0625rem .625rem;
+            }
+        .video4 video{
+            width: 100%;
+        }
+        
+    
+    
+    
+        // CONTACTO
+    
+    
+        .contactolinksgrid{
+            color: $color-principal;
+                // padding-bottom: 9.375rem;
+            @include grid (25% 25% 25% 25%, 4.6875rem 4.6875rem 4.6875rem 4.6875rem 4.6875rem 4.6875rem 4.6875rem, 0rem);
+                a{
+                text-decoration: none;
+                color: $color-principal;
+                }
+        .txt{
+            text-align: center;
+            justify-content: center;
+            grid-column: 1/5;
+            grid-row: 1/2;
+            padding: .3125rem .3125rem;
+        }
+        
+        .txt1{
+            text-align: center;
+            justify-content: center;
+            grid-column: 1/4;
+            grid-row: 2/4;
+            padding-left: 6.25rem;
+        }
+        
+        .linkscontacto{
+            text-align: center;
+            justify-content: left;
+            grid-column: 3/5;
+            grid-row: 3/5;
+            padding: .3125rem .3125rem;
+            button{
+                width: 5.625rem;
+                height: 6.25rem;
+                background-color: $bg-secundario;
+                border-color: $bg-secundario;
+                border-radius: .625rem;
+            }
+        }
+        
+        .txt2{
+            text-align: center;
+            justify-content: center;
+            grid-column: 1/3;
+            grid-row: 6/8;
+            padding: 3.125rem 1.5625rem;
+        }
+        
+        .linkscontacto1{
+            text-align: center;
+            justify-content: center;
+            grid-column: 3/5;
+            grid-row: 6/8;
+            padding: .3125rem .3125rem;
+            button{
+                width: 5.625rem;
+                height: 6.25rem;
+                background-color: $bg-secundario;
+                border-color: $bg-secundario;
+                border-radius: .625rem;
+            }
+        }
+    }
+    
+    
+    
+        .gridcarrito{
+            padding-top: .9375rem;
+            padding-bottom: .3125rem;
+            @include grid (25% 25% 25% 25%, 9.375rem 9.375rem 9.375rem 9.375rem 9.375rem 9.375rem, 0rem);
+        
+        
+        .titulo{
+            grid-column: 1/4;
+            grid-row: 1/2;
+            color: white;
+            padding-top: 3.125rem;
+                h3{
+                    font-size: map-get($font-size , xl );
+                    text-align: center;
+                    justify-content: center;
+                }
+        }
+        
+        .miniatura{
+            grid-column: 1/5;
+            grid-row: 2/4;
+            justify-content: center;
+            align-items: center;
+            padding: 0rem .625rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+        }
+        
+        .infocompra{
+            grid-column: 1/5;
+            grid-row: 4/6;
+            color: white;
+            justify-content: center;
+            align-content: center;
+            padding-top: .625rem;
+            padding-left: .625rem;
+                h3{
+                    font-size: map-get($font-size , xl );
+                    text-align: left;
+                }
+            
+        }
+        
+        .formulariocompra{
+            grid-column: 1/3;
+            grid-row: 5/6;
+            color: white;
+            padding-left: .625rem;
+                h3 {
+                    font-size: map-get($font-size , md );
+                }
+        }
+        
+        .metodospago{
+            grid-column: 1/5;
+            grid-row: 6/7;
+            color: white;
+            padding-left: .625rem;
+                h3{
+                    font-size: map-get($font-size , md );
+                    text-align: left;
+                }
+            }
+        
+        
+        .botoncompra{
+            grid-column: 3/5;
+            grid-row: 5/7;
+            // justify-content: center;
+            // align-items: center;
+                button{
+                    background-color: #350da5b9;
+                    height: 4.6875rem;
+                    width: 6.25rem;
+                    border: $color-terciario .125rem solid;
+                    border-radius: .625rem;
+                        a{
+                            color: $color-principal;
+                            text-decoration: none;
+                            font-size: map-get($font-size , md );
+                        }
+                    }
+        }
+    }
+
+}

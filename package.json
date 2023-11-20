@@ -1,0 +1,11 @@
+{
+  "name": "vamos-con-este-2",
+  "version": "1.0.0",
+  "description": "Buenas. Los HTML con FULL responsive vendrían a ser el Index y el HTML de Carrito.\r Saludos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
